@@ -5,13 +5,13 @@ Stuff about me
 
 
 
-###My projects
+###My Projects
 
-####project 1
+project 1
 
-####project 2
+project 2
 
-####project 3
+project 3
 ```
 ### Markdown
 
