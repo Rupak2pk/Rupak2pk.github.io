@@ -5,13 +5,13 @@ I am a senior at Lewis and Clark Career Center and Francis Howell North High. I 
 
 
 
-##My Projects
+### My Projects
 
-project 1
+Autovaluer
 
-project 2
+gpd bot that read comments from a fourm
 
-project 3
+my fbla coding and programming project
 
 
 
