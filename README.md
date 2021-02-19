@@ -7,11 +7,11 @@ I am a senior at Lewis and Clark Career Center and Francis Howell North High. I 
 
 ### My Projects
 
-Autovaluer
+[Autovaluer for Truman's investment fund](https://github.com/Rupak2pk/auto-valuation-): 
 
-gpd bot that read comments from a fourm
+[gpd bot that read comments from a fourm](https://github.com/Rupak2pk/ADP)
 
-my fbla coding and programming project
+[my fbla coding and programming project](https://github.com/Rupak2pk/FBLA-Coding-and-Programming)
 
 
 
