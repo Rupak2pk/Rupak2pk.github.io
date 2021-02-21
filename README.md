@@ -9,13 +9,14 @@ In my free time I love to excerise and play Super Smash Bros Ultimate! I also pl
 
 ### My Projects
 
-[Autovaluer for Truman's investment fund](https://github.com/Rupak2pk/auto-valuation-): 
+[Autovaluer for Truman's investment fund](https://github.com/Rupak2pk/auto-valuation-)
 
 [GPD bot that read comments from a fourm](https://github.com/Rupak2pk/ADP)
 
 [My FBLA coding and programming project](https://github.com/Rupak2pk/FBLA-Coding-and-Programming)
 
-[Website I created for assignments](https://github.com/Rupak2pk/HTML_WEBSITES)
+[Website I created as assignments for lewis and clark](https://github.com/Rupak2pk/HTML_WEBSITES)
+
 
 
 
