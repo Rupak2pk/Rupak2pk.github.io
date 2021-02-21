@@ -2,7 +2,7 @@
 
 I am a 17 year old senior at Lewis and Clark Career Center and Francis Howell North High. I am aspiring Aerospace Engineer who wants a coding background.
 
-In my free time I love to excerise and play Super Smash Bros Ultimate! I also play volleyball because I am a REALLY tall perosn.
+In my free time I love to excerise and play Super Smash Bros Ultimate! I also play volleyball because I am a REALLY tall person.
 
 
 
