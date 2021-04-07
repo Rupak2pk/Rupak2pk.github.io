@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal
 title: "Rupak Kannan"
+author: Rupak Kannan
 description: "Experience in: Java, Javascript, CSS, HTML, Python, SQL"
+output:
+  rmarkdown:index.html:
 logo: /images/startofqurantine.jpg
