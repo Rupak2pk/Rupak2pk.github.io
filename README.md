@@ -1,3 +1,11 @@
+<div id="sideMenu"> 
+    	[TOC] 
+    </div> 
+    <div id="mainContent"> 
+    	[CONTENT] 
+</div> 
+
+
 ## Welcome to my page!
 
 I am a 17 year old senior at Lewis and Clark Career Center and Francis Howell North High. I am aspiring Aerospace Engineer who wants a coding background.
