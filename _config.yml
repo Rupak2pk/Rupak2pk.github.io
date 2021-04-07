@@ -3,5 +3,5 @@ title: "Rupak Kannan"
 author: Rupak Kannan
 description: "Experience in: Java, Javascript, CSS, HTML, Python, SQL"
 output:
-  rmarkdown::html_document:
+  rmarkdown:index.html:
 logo: /images/startofqurantine.jpg
