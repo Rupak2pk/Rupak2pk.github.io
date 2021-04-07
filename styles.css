@@ -60,18 +60,26 @@ h1 {
 }
 
 
-
-nav {
-background-color: blue;
-border: 1px solid #C0C5C1;
-background-color: #7D8491;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7D8491;
 }
 
-nav a{ 
-	color:lightblue;
-	text-decoration:underline;
-	display:block;
+li {
 	text-align:center;
-	font-size:20px;
-	margin:auto;
+}
+
+li a {
+  display: block;
+  color:lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
