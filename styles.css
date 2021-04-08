@@ -60,24 +60,25 @@ h1 {
 }
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #7D8491;
+.nav {
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	background-color: #7D8491;
 }
 
-li {
-	text-align:center;
+.nav a {
+	display:inline-block;
+	padding:10px;
+	color:lightblue;
 }
 
-li a {
-  display: block;
+.nav li {
+  display: inline;
   color:lightblue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 li a:hover {
