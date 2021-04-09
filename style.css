@@ -1,0 +1,76 @@
+/* Style.css 
+Rupak Kannan
+4/2/2021*/
+
+body{
+	background-color:#BBBE64;
+	margin: auto;
+}
+
+#selfie{
+float:left;
+border: 4px solid #EAF0CE;
+border-collapse:collapse;
+background-color:#EAF0CE;
+max-width:20%;
+max-height:20%;
+}
+
+#description{
+
+background-color:#7D8491;
+text-align:center;
+border:4px solid #EAF0CE;
+border-collapse:collapse;
+margin-bottom:auto;
+padding:30px;
+font-size:25px;
+font-family: Arial, Helvetica, serif;
+color:lightblue;
+}
+
+#inline{
+	display: inline-block;
+	padding:20px;
+}
+
+#resume{
+	font-size:15px;
+	font-family: Arial, Helvetica, serif;
+	color:Darkblue;
+	display:block;
+
+}
+
+#explaination{
+	margin-right:auto;
+	padding-left:360px;
+}
+
+iframe{
+	display:block;
+	margin:auto;
+}
+
+h1 {
+	font-size:25px;
+	text-decoration:underline;
+	text-align:center;
+}
+
+
+
+nav {
+background-color: blue;
+border: 1px solid #C0C5C1;
+background-color: #7D8491;
+}
+
+nav a{ 
+	color:lightblue;
+	text-decoration:underline;
+	display:block;
+	text-align:center;
+	font-size:20px;
+	margin:auto;
+}
