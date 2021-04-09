@@ -50,6 +50,7 @@ color:lightblue;
 iframe{
 	display:block;
 	margin:auto;
+	overflow: hidden;
 }
 
 h1 {
