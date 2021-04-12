@@ -48,6 +48,8 @@ color:lightblue;
 	padding-left:360px;
 }
 
+
+
 form{
 	display:inline-block;
 }
@@ -78,8 +80,9 @@ h1 {
 	text-align:center;
 }
 
-
-
+th{
+	text-align:center
+}
 nav {
 background-color: blue;
 border: 1px solid #C0C5C1;
