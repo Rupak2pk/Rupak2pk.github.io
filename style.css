@@ -35,7 +35,7 @@ color:lightblue;
 	text-align:center
 }
 
-#resume{
+.header{
 	font-size:25px;
 	font-family: Arial, Helvetica, serif;
 	color:Darkblue;
@@ -68,7 +68,11 @@ form{
   color:lightblue;
 }
 
-iframe{
+table {
+	background-color:#718355;
+}
+
+iframe {
 	display:block;
 	margin:auto;
 	overflow: hidden;
