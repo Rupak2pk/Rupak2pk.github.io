@@ -4,7 +4,7 @@ Rupak Kannan
 
 body{
 	background-color:#BBBE64;
-	margin: auto;
+	margin:0;
 }
 
 #selfie{
@@ -39,7 +39,6 @@ color:lightblue;
 	font-size:25px;
 	font-family: Arial, Helvetica, serif;
 	color:Darkblue;
-	display:block;
 
 }
 
@@ -68,14 +67,11 @@ form{
   color:lightblue;
 }
 
-table {
-	background-color:#718355;
-}
-
 iframe {
 	display:block;
 	margin:auto;
 	overflow: hidden;
+	background-color:#718355;
 }
 
 h1 {
@@ -84,8 +80,20 @@ h1 {
 	text-align:center;
 }
 
-th{
-	text-align:center
+
+table {
+	background-color:#718355;
+	text-align:center;
+	float:right;
+	margin:auto;
+}
+
+
+th, td{
+	text-align:center;
+	margin:auto;
+	right:50px;
+	
 }
 nav {
 background-color: blue;
