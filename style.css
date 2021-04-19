@@ -47,6 +47,11 @@ color:lightblue;
 	padding-left:360px;
 }
 
+.lewis_clark{
+	margin:auto;
+	max-width:70%;
+	max-height:30%;
+}
 
 
 form{
@@ -85,14 +90,11 @@ table {
 	background-color:#718355;
 	text-align:center;
 	float:right;
-	margin:auto;
+	margin-right:auto;
 }
 
 
-th, td{
-	text-align:center;
-	margin:auto;
-	right:50px;
+td{
 	
 }
 nav {
