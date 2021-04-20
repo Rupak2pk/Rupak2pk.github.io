@@ -163,4 +163,8 @@ nav a{
   display: inline;
   float:center;
 }
+.dropdown:active .dropdown-content {
+  display: inline;
+  float:center;
+}
 
