@@ -3,13 +3,14 @@ Rupak Kannan
 4/2/2021*/
 
 body{
-	background-color:#BBBE64;
+	background-color:#74B3CE;
 	margin:0;
+	color:lightblue;
 }
 
 #selfie{
 float:left;
-border: 4px solid #EAF0CE;
+border: 4px solid #004346;
 border-collapse:collapse;
 background-color:#EAF0CE;
 max-width:20%;
@@ -18,9 +19,9 @@ max-height:20%;
 
 #description{
 
-background-color:#7D8491;
+background-color:#172A3A;
 text-align:center;
-border:4px solid #EAF0CE;
+border:4px solid #004346;
 border-collapse:collapse;
 margin-bottom:auto;
 padding:30px;
@@ -38,7 +39,7 @@ color:lightblue;
 .header{
 	font-size:25px;
 	font-family: Arial, Helvetica, serif;
-	color:Darkblue;
+	color:#416F76;
 
 }
 
@@ -47,11 +48,6 @@ color:lightblue;
 	padding-left:360px;
 }
 
-.lewis_clark{
-	margin:auto;
-	max-width:70%;
-	max-height:30%;
-}
 
 
 form{
@@ -59,9 +55,9 @@ form{
 }
 
 .button {
-  background-color: #7D8491;
+  background-color: #004346;
   border: none;
-  color: #416165;
+  color: #09BC8A;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -76,18 +72,19 @@ iframe {
 	display:block;
 	margin:auto;
 	overflow: hidden;
-	background-color:#718355;
+	background-color:#74B3CE;
 }
 
 h1 {
 	font-size:25px;
 	text-decoration:underline;
 	text-align:center;
+	color:#004346;
 }
 
 
 table {
-	background-color:#718355;
+	background-color:#416F76;
 	text-align:center;
 	float:right;
 	margin-right:auto;
@@ -95,12 +92,17 @@ table {
 
 
 td{
+	color:#172A3A;
 	
 }
+
+td a{
+	color:#172A3A;
+}
+
 nav {
 background-color: blue;
-border: 1px solid #C0C5C1;
-background-color: #7D8491;
+background-color: #172A3A;
 padding:5px;
 text-align:center;
 }
