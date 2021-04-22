@@ -6,8 +6,7 @@ body{
 	background-color:#74B3CE;
 	margin:0;
 	color:lightblue;
-	
-	-webkit-flex-flow: row wrap;
+	font-family: 'Roboto Condensed', sans-serif;
 
 	
 }
@@ -36,7 +35,6 @@ border-collapse:collapse;
 margin-bottom:auto;
 padding:30px;
 font-size:25px;
-font-family: Arial, Helvetica, serif;
 color:lightblue;
 }
 
@@ -48,7 +46,6 @@ color:lightblue;
 
 .header{
 	font-size:25px;
-	font-family: Arial, Helvetica, serif;
 	color:#416F76;
 
 }
@@ -159,12 +156,9 @@ nav a{
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
   display: inline;
   float:center;
 }
-.dropdown:active .dropdown-content {
-  display: inline;
-  float:center;
-}
+
 
