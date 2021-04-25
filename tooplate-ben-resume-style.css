@@ -65,6 +65,12 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
 
+  
+
+  .contact{
+    font-family: var(--base-font-family);
+  }
+
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
@@ -167,6 +173,7 @@ https://www.tooplate.com/view/2120-ben-resume
     color: var(--dark-color);
     text-decoration: none;
     transition: all 0.4s linear;
+    font-family: var(--base-font-family);
   }
 
   a:hover  {
@@ -179,6 +186,7 @@ https://www.tooplate.com/view/2120-ben-resume
      MENU                
   -----------------------------------------*/
 
+  /*
   .navbar {
     background: transparent;
     padding: 0.3rem 1rem;
@@ -302,7 +310,7 @@ https://www.tooplate.com/view/2120-ben-resume
   .navbar-toggler .navbar-toggler-icon::after {
     top: 8px;
   }
-
+*/
 
 
   /*---------------------------------------
@@ -317,7 +325,7 @@ https://www.tooplate.com/view/2120-ben-resume
     display: inline-block;
     margin: 0.5rem 0;
     padding: 0.5rem 2rem 1.5rem 2rem;
-	font-size: 2.2em;
+	  font-size: 2.2em;
   }
 
   .email-link {
