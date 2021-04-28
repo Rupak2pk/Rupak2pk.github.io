@@ -3,10 +3,15 @@ Rupak Kannan
 4/2/2021*/
 
 body{
-	background-color:#74B3CE;
+	background: url(images/background2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+
+
 	margin:0;
 	color:lightblue;
-
+	font-family: 'Abel', sans-serif;
 	
 }
 
@@ -44,7 +49,7 @@ nav a{
 		color: #74B3CE;
 		display:inline;
 		text-align: center;
-		padding: 23px 17px;
+		padding: 27px 17px;
 		text-decoration: none;
 		font-size: 17px;
 	  }
@@ -55,7 +60,7 @@ nav a{
 	  }
 
 .Name{
-	z-index:1;
+	color:#74B3CE;
 	display:inline;
 	height:auto;
 	display:block;
@@ -69,8 +74,8 @@ nav a{
 	float:left;
 	margin-left:330px;
 	width:260px;
-	height:320px;
-	top:30px;
+	height:310px;
+	top:36px;
 	z-index:-1;
 	clear:both;
 }
@@ -85,6 +90,7 @@ border-collapse:collapse;
 position:relative;
 margin-top:140px;
 padding:30px;
+margin-bottom:500px;
 font-size:25px;
 color:lightblue;
 }
@@ -95,12 +101,17 @@ color:lightblue;
 	text-align:center
 }
 
+#container{
+	margin: 0 auto;
+	background:#74B3CE;
+	display:block;
+ }
 
-#explaination{
-	margin-right:auto;
-	padding-left:360px;
+
+.header{
+	color:#172A3A;
+	font-size:100px;
 }
-
 
 
 form{
@@ -187,10 +198,14 @@ h1 {
 
 /*for phones*/
 @media screen and (max-width: 480px) {
-    iframe{
-        width:400px;
-        height:260px;
-    }
+    body{
+		background: url(images/background2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+		
+
+
 
 }
 
@@ -248,7 +263,7 @@ h1 {
 
 /*navbar adjust for phones-->*/
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 640px) {
 	
 	/*
 	.topnav a, .topnav-right {
@@ -275,16 +290,9 @@ h1 {
 
 	#selfie {
 		margin-left:auto;
-		top:120px;
+		top:130px;
 		width:260px;
-		height:320px;
+		height:310px;
 	}
   }
-
-@media screen and (max-width: 480px) {
-    iframe {
-       width:80%;
-       height:400px;
-    }
-
 }
