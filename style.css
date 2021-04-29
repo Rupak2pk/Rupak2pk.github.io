@@ -7,9 +7,15 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:cover;
+
 	margin:0;
 	color:lightblue;
 	font-family: 'Abel', sans-serif;
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
 	
 }
 
@@ -99,12 +105,16 @@ color:lightblue;
 }
 
 #container{
+	display: flex;
+	flex-wrap: wrap;
+
 	margin: 0 auto;
 	background:#74B3CE;
 	display:block;
 	border: none;
     border-radius:40px;
 	margin-top:400px;
+	overflow:hidden;
  }
 
 
@@ -131,10 +141,12 @@ form{
   color:lightblue;
 }
 
-iframe {
+iframe{
+	overflow:auto;
 	display:block;
 	margin:auto;
-	overflow: hidden;
+	float:left;
+	margin-left:30px;
 }
 
 h1 {
@@ -160,6 +172,7 @@ h1 {
 	text-align:center;
 	float:right;
 	margin-right:auto;
+	width:100%;
 }
 
 
@@ -194,7 +207,7 @@ h1 {
 
 
 
-/*adjust the image when the window is adjusted*/
+/*adjust the selfie when the window is adjusted*/
 
 @media (max-width: 750px) {
 
@@ -237,7 +250,15 @@ h1 {
 	}
   }
 
-/*navbar adjust for phones-->*/
+/*navbar adjust for screen-->*/
+@media screen and (max-width:480px){
+	iframe{
+		display: flex;
+    	flex-direction: row;
+		flex-shrink: -1;
+	}
+}
+
 
 @media screen and (max-width: 640px) {
 	
@@ -266,7 +287,7 @@ h1 {
 
 	#selfie {
 		margin-left:auto;
-		top:130px;
+		top:70px;
 		width:260px;
 		height:310px;
 	}
