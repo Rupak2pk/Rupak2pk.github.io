@@ -144,6 +144,14 @@ form{
 iframe{
 	overflow:auto;
 	display:block;
+	margin:auto;
+}
+
+.project_des{
+	-webkit-flex: 1 3 140px;	
+	flex: 1 3 140px;
+	font-size:25px; 
+	color:#172A3A;
 }
 
 h1 {
@@ -205,6 +213,12 @@ h1 {
 
 
 /*adjust the selfie when the window is adjusted*/
+@media (max-width: 620px) {
+
+	.topnav p{
+		display:none;
+	}
+  }
 
 @media (max-width: 630px) {
 
@@ -258,15 +272,14 @@ h1 {
 	}
   }
 
-/*adjust for iphone*/
-@media only screen and (max-width:480px){
-	.project_des{
-		color:red;
-	}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px){
+  	.project_des{
+		  color:red;
+	  }
 }
-
 /*desktops*/
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 896px) {
 	
 	iframe{
 		float:left;
