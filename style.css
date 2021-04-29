@@ -144,9 +144,6 @@ form{
 iframe{
 	overflow:auto;
 	display:block;
-	margin:auto;
-	float:left;
-	margin-left:30px;
 }
 
 h1 {
@@ -209,6 +206,17 @@ h1 {
 
 /*adjust the selfie when the window is adjusted*/
 
+@media (max-width: 630px) {
+
+	#selfie {
+		margin-left:auto;
+		top:70px;
+		width:260px;
+		height:310px;
+	}
+  }
+
+
 @media (max-width: 750px) {
 
 	#selfie {
@@ -250,45 +258,19 @@ h1 {
 	}
   }
 
-/*navbar adjust for screen-->*/
-@media screen and (max-width:480px){
-	iframe{
-		display: flex;
-    	flex-direction: row;
-		flex-shrink: -1;
+/*adjust for iphone*/
+@media only screen and (max-width:480px){
+	.project_des{
+		color:red;
 	}
 }
 
-
-@media screen and (max-width: 640px) {
+/*desktops*/
+@media only screen and (min-width: 481px) {
 	
-	/*
-	.topnav a, .topnav-right {
-	  float: none;
-	  display: block;
+	iframe{
+		float:left;
+		margin-left:30px;
 	}
-	*/
-	
-	/*
-	.topnav-centered a {
-	  position: relative;
-	  top: 0;
-	  left: 0;
-	  transform: none;
-	}
-	*/
 
-	.topnav p{
-		display:none;
-	}
-  }
-
-@media (max-width: 630px) {
-
-	#selfie {
-		margin-left:auto;
-		top:70px;
-		width:260px;
-		height:310px;
-	}
   }
