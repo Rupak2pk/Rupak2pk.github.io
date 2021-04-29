@@ -7,8 +7,6 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:cover;
-
-
 	margin:0;
 	color:lightblue;
 	font-family: 'Abel', sans-serif;
@@ -90,7 +88,6 @@ border-collapse:collapse;
 position:relative;
 margin-top:140px;
 padding:30px;
-margin-bottom:500px;
 font-size:25px;
 color:lightblue;
 }
@@ -105,6 +102,9 @@ color:lightblue;
 	margin: 0 auto;
 	background:#74B3CE;
 	display:block;
+	border: none;
+    border-radius:40px;
+	margin-top:400px;
  }
 
 
@@ -144,18 +144,16 @@ h1 {
 
 
 .education {
-	background-color:#57949E;
+	background-color:white;
+	width:100%;
 	text-align:center;
-	float:right;
 	margin-right:auto;
+	margin-left:auto;
 	padding:10px;
+	margin-top:10px;
+	border-radius:20px;
 }
 
-
-.education td{
-	color:#172A3A;
-	
-}
 
 .contact {
 	background-color: #172A3A;
@@ -196,22 +194,19 @@ h1 {
 
 
 
-/*for phones*/
-@media screen and (max-width: 480px) {
-    body{
-		background: url(images/background2.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size:cover;
-		
-
-
-
-}
-
-
 /*adjust the image when the window is adjusted*/
-@media (max-width: 960px) {
+
+@media (max-width: 750px) {
+
+	#selfie {
+		margin-left:auto;
+		top:60px;
+		width:260px;
+		height:320px;
+	}
+  }
+
+@media (max-width: 780px) {
 
 	#selfie {
 		margin-left:auto;
@@ -221,26 +216,7 @@ h1 {
 	}
   }
 
-  @media (max-width: 830px) {
-
-	#selfie {
-		margin-left:auto;
-		top:40px;
-		width:260px;
-		height:320px;
-	}
-  }
-  @media (max-width: 780px) {
-
-		#selfie {
-			margin-left:auto;
-			top:40px;
-			width:260px;
-			height:320px;
-		}
-  }
-
-  @media (max-width: 830px) {
+@media (max-width: 830px) {
 
 	#selfie {
 		margin-left:auto;
@@ -251,11 +227,11 @@ h1 {
 
   }
 
-  @media (max-width: 750px) {
+@media (max-width: 960px) {
 
 	#selfie {
 		margin-left:auto;
-		top:60px;
+		top:40px;
 		width:260px;
 		height:320px;
 	}
@@ -263,7 +239,7 @@ h1 {
 
 /*navbar adjust for phones-->*/
 
-  @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 	
 	/*
 	.topnav a, .topnav-right {
@@ -286,7 +262,7 @@ h1 {
 	}
   }
 
-  @media (max-width: 630px) {
+@media (max-width: 630px) {
 
 	#selfie {
 		margin-left:auto;
@@ -295,4 +271,3 @@ h1 {
 		height:310px;
 	}
   }
-}
