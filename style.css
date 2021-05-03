@@ -281,9 +281,9 @@ h1 {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px){
-  	.project_des{
-		  color:red;
-	  }
+	.calendar{
+		width:80%;
+	}
 }
 /*desktops*/
 @media only screen and (min-width: 896px) {
@@ -299,4 +299,7 @@ h1 {
 		margin-left:30px;
 	}
 
+	.calendar{
+		width:40%;
+	}
   }
