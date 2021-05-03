@@ -168,6 +168,7 @@ h1 {
 
 .education {
 	background-color:white;
+	overflow:auto;
 	width:100%;
 	text-align:center;
 	margin-right:auto;
