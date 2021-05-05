@@ -10,6 +10,8 @@
 <!--custom css template-->
 <link rel="stylesheet" href="tooplate-ben-resume-style.css">
 
+<!---javascript-->
+<script src="email.js"></script>
 <!--google fonts-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
@@ -30,7 +32,7 @@ window.open('rupakkan@gmail.com');
     <a href="https://github.com/Rupak2pk" id="current">My Own Github</a>
     <a href="#resume">Projects</a>
     <a href="#contact">Contact</a>
-    <p>Rupak's Portfolio Website</p>
+    <p>Background photo credit: Adrien Olichon</p>
 
   
 </div>
@@ -166,19 +168,58 @@ a big school. My hobbies include: Volleyball, home-made weightlifting, and talki
 <br>-->
 </div>
 </div>
-<nav style="width:100%" class="contact">
+
+<div class="contact">
   <p>
-  <h1 id="contact" style="text-align:center; font-size:60px; color:#57949E">Contact me!</h1>
+    <h1 id="contact" style="text-align:center; font-size:60px; color:#172A3A">Contact me!</h1>
+  <form
+  action="https://formspree.io/f/xzbydyad"
+  method="POST"
+  >
+      <input type="text" id="first" name="First" placeholder="First Name" required>
+      <input type="text" id="last" name="Last" placeholder="Last Name" required><br>
+
+      <input type="text" id="emadd" name="Email Address" placeholder="Email" required>
+      <input type="text" id="num" name="Phone #" placeholder="Phone (Optional)"><br>
+
+      <input type="text" id="msg" name="Message" placeholder="Message" required>
+
+     
+      <p style="font-size: 25px;"> How can I reach you? </p>
+      <input type="checkbox" id="conPN" name="Contact By" value="call">
+      <label for="conPN">Phone Call</label><br>
+      <input type="checkbox" id="conTXT" name="Contact By" value="text">
+      <label for="conTXT">SMS/Text</label><br>
+      <input type="checkbox" id="conEM" name="Contact By" value="email">
+      <label for="conEM">Email</label><br>
+
+      <button type="submit">Send</button>
+
+    </form>
+
+</form>
+</div>
+
+<nav style="width:100%" class="credit">
+  <p>
+
   <table style="width:100%">
     <tr>
-      <th width="33%"><a style="font-size:30px;" href="https://www.tooplate.com/about">Tooplate</a></th>
-      <th width="33%">&#9743; 636-219-1547</th>
-      <th width="33%"><a href="https://msng.link/o/?ru_2pak=ig"><img class="social" src="images/insta_icon.png"></a> <a href="https://msng.link/o/?greenspice7=sc"><img class="social" src="images/snap_icon.png"></a> <!-----<img class="social" src="images/Twitter_icon.png">--></td>
+      <td width="33%" style="font-size:13px"></td>
+      <th width="33%"><a style="font-size:20px;" class="email-link" href="https://www.linkedin.com/in/rupak-kannan-28b3a2211">LinkedIn</a></th>
+      <th width="33%"></th>
+    </tr>
+  </table>
+
+  <table width="100%">
+    <tr>
+      <td width="33%"></td>
+      <td><a href="https://msng.link/o/?ru_2pak=ig"><img class="social" src="images/insta_icon.png"></a> <a href="https://msng.link/o/?greenspice7=sc"><img class="social" src="images/snap_icon.png"></a> <!-----<img class="social" src="images/Twitter_icon.png">--></td>
     </tr>
     <tr>
-      <td width="33%" style="font-size:13px">Background image creator: Adrien Olichon</td>
-      <th width="33%"> <a style="font-size:20px;" class="email-link" href="mailto:rupakkan@gmail.com"> rupakkan@gmail.com</a></th>
-      <th width="33%"> <a style="font-size:20px;" class="email-link" href="https://www.linkedin.com/in/rupak-kannan-28b3a2211">LinkedIn</a></th>
+      <td width="33%" style="font-size:13px"></td>
+      <th width="33%"> <a style="font-size:30px;" href="https://www.tooplate.com/about">Tooplate</a></th>
+      <th width="33%"></th>
     </tr>
   </table>
   </p>

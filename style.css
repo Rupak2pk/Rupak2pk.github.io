@@ -178,9 +178,8 @@ h1 {
 	border-radius:20px;
 }
 
-
 .contact {
-	background-color: #172A3A;
+	background-color: #57949E;
 	text-align:center;
 	float:right;
 	margin-right:auto;
@@ -195,6 +194,28 @@ h1 {
 }
 
 .contact th{
+	color:#57949E;
+	font-size:20px;
+	font-weight:lighter;
+	
+}
+
+.credit {
+	background-color: #172A3A;
+	text-align:center;
+	float:right;
+	margin-right:auto;
+	width:100%;
+}
+
+
+.credit td{
+	color:#57949E;
+	font-size:20px;
+	
+}
+
+.credit th{
 	color:#57949E;
 	font-size:20px;
 	font-weight:lighter;
@@ -217,16 +238,6 @@ h1 {
 }
 
 
-
-
-/*adjust the selfie when the window is adjusted*/
-@media (max-width: 620px) {
-
-	.topnav p{
-		display:none;
-	}
-  }
-
 @media (max-width: 630px) {
 
 	#selfie {
@@ -245,6 +256,10 @@ h1 {
 		top:60px;
 		width:260px;
 		height:320px;
+	}
+
+	.topnav p{
+		display:none;
 	}
   }
 
