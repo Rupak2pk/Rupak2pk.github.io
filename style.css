@@ -179,12 +179,12 @@ h1 {
 }
 
 .contact {
-	background-color: #57949E;
+	background-color:teal;
 	display: flex;
 	flex-wrap: wrap;
 	width:95%;
 	margin: 0 auto;
-	background:#74B3CE;
+	margin-bottom:100px;
 	display:block;
 	border: none;
 	border-radius:40px;
@@ -262,9 +262,7 @@ h1 {
 		height:320px;
 	}
 
-	.topnav p{
-		display:none;
-	}
+	
   }
 
 @media (max-width: 780px) {
@@ -275,6 +273,8 @@ h1 {
 		width:260px;
 		height:320px;
 	}
+
+	
   }
 
 @media (max-width: 830px) {
@@ -285,7 +285,9 @@ h1 {
 		width:260px;
 		height:320px;
 	}
-
+	.topnav p{
+		display:none;
+	}
   }
 
 @media (max-width: 960px) {
