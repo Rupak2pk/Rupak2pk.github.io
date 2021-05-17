@@ -90,6 +90,31 @@ nav a{
 	clear:both;
 }
 
+.lewis_and_clark .img-top{
+	background-image:url("images/lclogo145px.jpg");
+}
+
+.lewis_and_clark:hover .img-top{
+	width:20%;
+	border-radius:20px;
+	display:none;
+}
+
+.img-bottom{
+	width:20%;
+	border-radius:20px;
+	display:none;
+}
+
+.lewis_and_clark:hover .img-bottom{
+	width:20%;
+	border-radius:20px;
+	display:flex;
+	margin:auto;
+	
+}
+
+
 #description{
 background-color:#172A3A;
 text-align:center;
@@ -177,6 +202,11 @@ h1 {
 	padding:10px;
 	margin-top:10px;
 	border-radius:20px;
+}
+
+q{
+	font-style:italic;
+	color:#004346;
 }
 
 input{
@@ -268,6 +298,8 @@ textarea{
 		width:260px;
 		height:310px;
 	}
+
+	
   }
 
 
@@ -323,6 +355,8 @@ textarea{
 	.calendar{
 		width:80%;
 	}
+
+	
 }
 /*desktops*/
 @media only screen and (min-width: 896px) {
